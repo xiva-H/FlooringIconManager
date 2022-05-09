@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/updateEditSearchRes"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="5dp">
+
+    <TextView
+        android:id="@+id/esize"
+        android:layout_width="0dp"
+        android:layout_height="26dp"
+        android:layout_marginEnd="16dp"
+        android:text="individual size"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBaseline_toBaselineOf="@+id/eQty"
+        app:layout_constraintEnd_toStartOf="@+id/eQty"
+        app:layout_constraintStart_toEndOf="@+id/ebrand" />
+
+    <TextView
+        android:id="@+id/ePrice"
+        android:layout_width="0dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="14dp"
+        android:text="Price"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/cardView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/eColor2"
+        app:layout_constraintTop_toBottomOf="@+id/eTotQty" />
+
+    <TextView
+        android:id="@+id/eTotQty"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="2dp"
+        android:text="total Qty "
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/eColor2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/eType"
+        app:layout_constraintTop_toBottomOf="@+id/ebrand" />
+
+    <TextView
+        android:id="@+id/eColor2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="270dp"
+        android:layout_marginBottom="25dp"
+        android:text="Color"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/cardView2"
+        app:layout_constraintEnd_toStartOf="@+id/ePrice"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eTotQty" />
+
+    <TextView
+        android:id="@+id/eType"
+        android:layout_width="0dp"
+        android:layout_height="17dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="270dp"
+        android:text="Type"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/eTotQty"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/eStoreid"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="5dp"
+        android:text="Store Id"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/eQty"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/eProductName"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/eQty"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="17dp"
+        android:text="qty"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/ebrand"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/esize"
+        app:layout_constraintTop_toBottomOf="@+id/eProductName" />
+
+    <TextView
+        android:id="@+id/ebrand"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="58dp"
+        android:layout_marginBottom="6dp"
+        android:text="Brand"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/eTotQty"
+        app:layout_constraintEnd_toStartOf="@+id/esize"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eQty" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="5dp"
+        android:clickable="true"
+        app:cardBackgroundColor="#075EBA"
+        app:contentPadding="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eColor2" />
+
+    <TextView
+        android:id="@+id/eProductName"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="169dp"
+        android:layout_marginBottom="7dp"
+        android:text="Product Name"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/eQty"
+        app:layout_constraintEnd_toStartOf="@+id/eStoreid"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

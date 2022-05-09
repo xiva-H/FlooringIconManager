@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.qc.seclass.fim">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FIM">
+        <activity
+            android:name=".editUpdateActivity"
+            android:exported="false" />
+        <activity
+            android:name=".searchEditResultActivity"
+            android:exported="false"
+            android:parentActivityName=".editProductActivity"/>
+        <activity
+            android:name=".editProductActivity"
+            android:exported="false"
+            android:parentActivityName=".empMenuActivity"/>
+        <activity
+            android:name=".delProductActivity"
+            android:exported="false"
+            android:parentActivityName=".empMenuActivity"
+            />
+        <activity
+            android:name=".addProductActivity"
+            android:exported="false"
+            android:parentActivityName=".empMenuActivity"/>
+        <activity
+            android:name=".productInfoPageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".searchResultActivity"
+            android:exported="false"
+            android:parentActivityName=".searchActivity"/>
+        <activity
+            android:name=".searchActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".empMenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".empLogInActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

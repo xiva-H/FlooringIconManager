@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/add_store"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ACD7DD"
+    tools:context=".addProductActivity">
+
+    <Spinner
+        android:id="@+id/add_tile"
+        android:layout_width="249dp"
+        android:layout_height="31dp"
+        android:layout_marginBottom="68dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/addProdBut2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Spinner
+        android:id="@+id/add_vinyl"
+        android:layout_width="249dp"
+        android:layout_height="31dp"
+        android:layout_marginBottom="68dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/addProdBut2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.462"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Spinner
+        android:id="@+id/add_laminate"
+        android:layout_width="249dp"
+        android:layout_height="31dp"
+        android:layout_marginBottom="68dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/addProdBut2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Spinner
+        android:id="@+id/add_stone"
+        android:layout_width="249dp"
+        android:layout_height="31dp"
+        android:layout_marginBottom="68dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/addProdBut2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Spinner
+        android:id="@+id/add_wood1"
+        android:layout_width="249dp"
+        android:layout_height="31dp"
+        android:layout_marginBottom="68dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/addProdBut2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Spinner
+        android:id="@+id/add_wood2"
+        android:layout_width="244dp"
+        android:layout_height="31dp"
+        android:layout_marginBottom="16dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/addProdBut2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="144dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="16dp"
+        android:text="Add Product"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/addProductID"
+        android:layout_width="163dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Product ID"
+        android:textColorHint="#FFFFFF"
+        android:textColor="#FFFFFF"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+    <EditText
+        android:id="@+id/addProductName"
+        android:layout_width="256dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="17dp"
+        android:ems="10"
+        android:hint="Product Name"
+        android:inputType="textPersonName"
+        android:textColorHint="#FFFFFF"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/add_storeid" />
+
+    <EditText
+        android:id="@+id/addBrand"
+        android:layout_width="255dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="13dp"
+        android:ems="10"
+        android:hint="Brand"
+        android:inputType="textPersonName"
+        android:textColorHint="#FFFFFF"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addProductName" />
+
+    <EditText
+        android:id="@+id/addColor"
+        android:layout_width="243dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="Color"
+        android:inputType="textPersonName"
+        android:textColorHint="#FFFFFF"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addBrand" />
+
+    <EditText
+        android:id="@+id/addSize"
+        android:layout_width="83dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="17dp"
+        android:ems="10"
+        android:hint="Size"
+        android:inputType="number|numberDecimal"
+        android:textColorHint="#FFFFFF"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/add_qty"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addColor" />
+
+    <EditText
+        android:id="@+id/addPrice"
+        android:layout_width="93dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="60dp"
+        android:ems="10"
+        android:hint="Price"
+        android:textColorHint="#FFFFFF"
+        android:textColor="#FFFFFF"
+        android:inputType="number|numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addColor" />
+
+    <Button
+        android:id="@+id/addProdBut2"
+        android:layout_width="255dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#E6F5FB"
+        android:text="Add Product"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Spinner
+        android:id="@+id/add_storeid"
+        android:layout_width="157dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.06"
+        app:layout_constraintStart_toEndOf="@+id/addProductID"
+        app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+    <Spinner
+        android:id="@+id/add_floor"
+        android:layout_width="242dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/add_qty" />
+
+    <EditText
+        android:id="@+id/add_qty"
+        android:layout_width="83dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="12dp"
+        android:ems="10"
+        android:hint="Qty"
+        android:textColorHint="#FFFFFF"
+        android:textColor="#FFFFFF"
+        android:inputType="number"
+        app:layout_constraintEnd_toStartOf="@+id/addPrice"
+        app:layout_constraintTop_toBottomOf="@+id/addColor" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

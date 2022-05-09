@@ -1,0 +1,188 @@
+<resources>
+    <string name="app_name">FIM</string>
+
+    <string-array name="floorSearch">
+        <item>All Floors</item>
+        <item>Laminate</item>
+        <item>Stone</item>
+        <item>Tile</item>
+        <item>Vinyl</item>
+        <item>Wood</item>
+    </string-array>
+
+    <string-array name="wood1Search">
+        <item>All Wood Types</item>
+        <item>Engineered</item>
+        <item>Solid</item>
+        <item>Hybrid</item>
+    </string-array>
+
+    <string-array name="wood2Search">
+        <item>All Wood Species</item>
+        <item>Oak</item>
+        <item>Pine</item>
+        <item>Maple</item>
+        <item>Walnut</item>
+        <item>Hickory</item>
+    </string-array>
+
+    <string-array name="stoneSearch">
+        <item>All Stone Materials</item>
+        <item>Granite</item>
+        <item>Limestone</item>
+        <item>Sandstone</item>
+        <item>Marble</item>
+        <item>Slate</item>
+    </string-array>
+
+    <string-array name="laminateSearch">
+        <item>All Laminate</item>
+        <item>Water Resistant</item>
+        <item>Non-Water Resistant</item>
+    </string-array>
+
+    <string-array name="vinylSearch">
+        <item>All Vinyl</item>
+        <item>Waterproof</item>
+        <item>Non-Waterproof</item>
+    </string-array>
+
+    <string-array name="tileSearch">
+        <item>All Tile Material</item>
+        <item>Ceramic</item>
+        <item>Porcelain</item>
+        <item>Glass</item>
+        <item>Marble</item>
+        <item>Granite</item>
+    </string-array>
+
+    <string-array name="storeSearch">
+        <item>All Store Locations</item>
+        <item>1001</item>
+        <item>1002</item>
+        <item>1003</item>
+    </string-array>
+
+
+    <string-array name="add_storestr">
+        <item>Add Store</item>
+        <item>1001</item>
+        <item>1002</item>
+        <item>1003</item>
+    </string-array>
+
+    <string-array name="add_floorstr">
+        <item>Add Floor</item>
+        <item>Laminate</item>
+        <item>Stone</item>
+        <item>Tile</item>
+        <item>Vinyl</item>
+        <item>Wood</item>
+    </string-array>
+
+    <string-array name="add_wood1str">
+        <item>Add Wood Types</item>
+        <item>Engineered</item>
+        <item>Solid</item>
+        <item>Hybrid</item>
+    </string-array>
+
+    <string-array name="add_wood2str">
+        <item>Add Wood Species</item>
+        <item>Oak</item>
+        <item>Pine</item>
+        <item>Maple</item>
+        <item>Walnut</item>
+        <item>Hickory</item>
+    </string-array>
+
+    <string-array name="add_stonestr">
+        <item>Add Stone Materials</item>
+        <item>Granite</item>
+        <item>Limestone</item>
+        <item>Sandstone</item>
+        <item>Marble</item>
+        <item>Slate</item>
+    </string-array>
+
+    <string-array name="add_laminatestr">
+        <item>Add Laminate Type</item>
+        <item>Water Resistant</item>
+        <item>Non-Water Resistant</item>
+    </string-array>
+
+    <string-array name="add_vinylstr">
+        <item>Add Vinyl Type</item>
+        <item>Waterproof</item>
+        <item>Non-Waterproof</item>
+    </string-array>
+
+    <string-array name="add_tilestr">
+        <item>Add Tile Material</item>
+        <item>Ceramic</item>
+        <item>Porcelain</item>
+        <item>Glass</item>
+        <item>Marble</item>
+        <item>Granite</item>
+    </string-array>
+
+    <string-array name="update_storestr">
+        <item>1001</item>
+        <item>1002</item>
+        <item>1003</item>
+    </string-array>
+
+    <string-array name="update_floorstr">
+        <item>Laminate</item>
+        <item>Stone</item>
+        <item>Tile</item>
+        <item>Vinyl</item>
+        <item>Wood</item>
+    </string-array>
+
+    <string-array name="update_wood1str">
+        <item>Add Wood Types</item>
+        <item>Engineered</item>
+        <item>Solid</item>
+        <item>Hybrid</item>
+    </string-array>
+
+    <string-array name="update_wood2str">
+        <item>Add Wood Species</item>
+        <item>Oak</item>
+        <item>Pine</item>
+        <item>Maple</item>
+        <item>Walnut</item>
+        <item>Hickory</item>
+    </string-array>
+
+    <string-array name="update_stonestr">
+        <item>Add Stone Materials</item>
+        <item>Granite</item>
+        <item>Limestone</item>
+        <item>Sandstone</item>
+        <item>Marble</item>
+        <item>Slate</item>
+    </string-array>
+
+    <string-array name="update_laminatestr">
+        <item>Add Laminate Type</item>
+        <item>Water Resistant</item>
+        <item>Non-Water Resistant</item>
+    </string-array>
+
+    <string-array name="update_vinylstr">
+        <item>Add Vinyl Type</item>
+        <item>Waterproof</item>
+        <item>Non-Waterproof</item>
+    </string-array>
+
+    <string-array name="update_tilestr">
+        <item>Add Tile Material</item>
+        <item>Ceramic</item>
+        <item>Porcelain</item>
+        <item>Glass</item>
+        <item>Marble</item>
+        <item>Granite</item>
+    </string-array>
+</resources>
