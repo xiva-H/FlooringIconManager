@@ -1,7 +1,5 @@
 # Use Case Model
 
-**Author**: Team 3 Section 57
-
 ## 1 Use Case Diagram
 ![image](https://user-images.githubusercontent.com/66324119/161481399-06567f91-1add-4ade-a30d-cbfe1ca09f8a.png)
 
