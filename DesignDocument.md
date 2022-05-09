@@ -1,7 +1,5 @@
 # Design Document
 
-**Author**: Team 3 Section 57
-
 ## 1 Design Considerations
 
 ### 1.1 Assumptions
