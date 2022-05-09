@@ -1,7 +1,5 @@
 # Project Plan
 
-**Author**: Aisha Chowdhury
-
 ## WelcomeScreen
 When the users open the app, they are greeted with a welcome screen titled with FlloringIconManager. Customers can search floor by category or search floor by name by clicking on search. Employees can log in using the account (i.e. Username: admin Password: admin) button from the top right corner to search, add, edit, and delete product. You may also scroll up and down to have a better picture of the Laminate.
 
