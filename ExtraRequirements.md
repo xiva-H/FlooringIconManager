@@ -1,7 +1,5 @@
 # Extra Requirements
 
-**Author**: Team 3 Section 57
-
 ## Non-Functional requirements
 
 R1) The application must make it clear and available for employees to log in. 
