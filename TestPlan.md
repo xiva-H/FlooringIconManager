@@ -1,7 +1,5 @@
 # TestPlan
 
-**Author**: Joanne Pyo
-
 ## 1 Testing Strategy
 
 ### 1.1 Overall strategy
