@@ -1,9 +1,5 @@
 # Project Plan
 
-
-
-**Author**: Team 3 Section 57
-
 ## 1 Introduction
 
 FloorIconManager is an android app which allows employees add, edit and delete inventory. It also allows Customers to search products.
